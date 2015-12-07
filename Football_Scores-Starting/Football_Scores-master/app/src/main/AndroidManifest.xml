@@ -47,6 +47,7 @@
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@layout/widget_info_now" />
         </receiver>
+        <service android:name=".widget.NowWidgetIntentService" />
 
     </application>
 
