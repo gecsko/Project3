@@ -45,9 +45,9 @@
                 <action android:name="com.example.android.sunshine.app.ACTION_DATA_UPDATED" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
-                android:resource="@layout/widget_info_now" />
+                android:resource="@xml/widget_info_now" />
         </receiver>
-        <service android:name=".widget.NowWidgetIntentService" />
+        <service android:name=".NowWidgetIntentService" />
 
     </application>
 
