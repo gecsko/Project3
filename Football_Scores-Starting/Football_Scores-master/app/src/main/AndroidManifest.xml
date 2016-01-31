@@ -38,7 +38,7 @@
 
        <!--Widget -->
         <receiver
-            android:name=".service.NowWidget"
+            android:name=".NowWidgetProvider"
             android:label="Football Now" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -47,6 +47,7 @@
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info_now" />
         </receiver>
+
         <service android:name=".NowWidgetIntentService" />
 
     </application>
